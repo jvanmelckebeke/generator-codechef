@@ -16,6 +16,16 @@ Then generate your new project:
 yo codechef
 ```
 
+## Using with Vim
+
+This project is going to be built with Vim users in mind.
+
+Load main.cpp in vim, after coding run `:make` in vim to generate the binary.
+
+Open test.txt and enter the test data and run `:make test` in vim to run your test.
+
+`test.txt` will contain data which codechef will input.
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.

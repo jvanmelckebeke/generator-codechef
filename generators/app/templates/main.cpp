@@ -32,6 +32,9 @@ template<class T> void chmin(T & a, const T & b) { a = min(a, b); }
 
 int main()
 {
+	string in;
+	cin >> in;
+	cout << in;
     return 0;
 }
 
