@@ -32,9 +32,11 @@ template<class T> void chmin(T & a, const T & b) { a = min(a, b); }
 
 int main()
 {
-	string in;
-	cin >> in;
-	cout << in;
+	int t;
+	cin >> t;
+	while(t--) {
+		cout << t << endl;
+	}
     return 0;
 }
 

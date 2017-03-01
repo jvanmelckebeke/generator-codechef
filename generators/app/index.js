@@ -32,6 +32,10 @@ module.exports = Generator.extend({
             this.templatePath('Makefile'),
             this.destinationPath(this.props.projectName + '/Makefile')
         );
+        this.fs.copy(
+            this.templatePath('test.txt'),
+            this.destinationPath(this.props.projectName + '/test.txt')
+        );
 
     },
 
