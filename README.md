@@ -20,9 +20,8 @@ yo codechef
 
 This project is going to be built with Vim users in mind.
 
-Load main.cpp in vim, after coding run `:make` in vim to generate the binary.
-
-Open test.txt and enter the test data and run `:make test` in vim to run your test.
+Load main.cpp in vim, after coding run `:make` in vim to generate the binary
+and run the test.
 
 `test.txt` will contain data which codechef will input.
 
