@@ -25,6 +25,10 @@ and run the test.
 
 `test.txt` will contain data which codechef will input.
 
+## Useful macros
+
+`ARRINIT(arr, n, value)` - Initialize arr of size n*n with `value`.
+ 
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.

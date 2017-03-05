@@ -13,11 +13,13 @@
 #include <stack>
 #include <algorithm>
 #include <functional>
+#include <climits>
 using namespace std;
 #define DEBUG(x) cout << '>' << #x << ':' << x << endl;
 #define REP(i,n) for(int i=0;i<(n);i++)
 #define FOR(i,a,b) for(int i=(a);i<=(b);i++)
 #define FORD(i,a,b) for(int i=(a);i>=(b);i--)
+#define ARRINIT(arr, n, value) REP(i, n) { REP(j, n) { arr[i][j] = value; } }
 inline bool EQ(double a, double b) { return fabs(a-b) < 1e-9; }
 const int INF = 1<<29;
 typedef long long ll;
