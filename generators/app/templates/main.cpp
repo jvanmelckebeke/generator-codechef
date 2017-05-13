@@ -19,7 +19,8 @@ using namespace std;
 #define REP(i,n) for(int i=0;i<(n);i++)
 #define FOR(i,a,b) for(int i=(a);i<=(b);i++)
 #define FORD(i,a,b) for(int i=(a);i>=(b);i--)
-#define ARRINIT(arr, n, value) REP(i, n) { REP(j, n) { arr[i][j] = value; } }
+#define ARRINIT(arr, n, value) REP(i, n) { arr[i] = value; }
+#define TDINIT(arr, n, value) REP(i, n) { ARRINIT(arr[i], n, value); }
 inline bool EQ(double a, double b) { return fabs(a-b) < 1e-9; }
 const int INF = 1<<29;
 typedef long long ll;
