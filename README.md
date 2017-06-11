@@ -28,7 +28,9 @@ and run the test.
 ## Useful macros
 
 * `ARRINIT(arr, n, value)` - Initialize arr of size n with `value`.
-* `TDINIT(arr, n, value)`- Initialize a 2d array of size n*n with `value`.
+* `TDINIT(arr, n, value)` - Initialize a 2d array of size n*n with `value`.
+* `PRINTARR(arr, n)` - Prints an array
+* `INPUTARR(arr, n)` - Input an array
  
 ## Getting To Know Yeoman
 

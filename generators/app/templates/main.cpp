@@ -21,6 +21,8 @@ using namespace std;
 #define FORD(i,a,b) for(int i=(a);i>=(b);i--)
 #define ARRINIT(arr, n, value) REP(i, n) { arr[i] = value; }
 #define TDINIT(arr, n, value) REP(i, n) { ARRINIT(arr[i], n, value); }
+#define PRINTARR(arr, n) REP(i, n) { cout << arr[i] << " "; }
+#define INPUTARR(arr, n) REP(i, n) { cin >> arr[i]; }
 inline bool EQ(double a, double b) { return fabs(a-b) < 1e-9; }
 const int INF = 1<<29;
 typedef long long ll;
