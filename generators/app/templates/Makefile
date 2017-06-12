@@ -1,7 +1,13 @@
 CXX=g++
 
-all: main
+all: diff
 
-main: main.cpp test.txt
+main: main.cpp test.txt output.txt
 	$(CXX) -o main main.cpp
-	cat test.txt | time ./main
+
+output.run: main
+	rm output.run
+	cat test.txt | time ./main > ./output.run
+
+diff: main output.run
+	diff output.run output.txt
