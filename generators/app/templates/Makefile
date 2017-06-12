@@ -10,4 +10,7 @@ output.run: main
 	cat test.txt | time ./main > ./output.run
 
 diff: main output.run
+	echo "# Output #"
+	cat ./output.run
+	echo "# Diff #"
 	diff output.run output.txt
