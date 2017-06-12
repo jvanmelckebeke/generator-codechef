@@ -25,6 +25,8 @@ and run the test.
 
 `test.txt` will contain data which codechef will input.
 
+`output.txt` contains the expected output for the testcase.
+
 ## Useful macros
 
 * `ARRINIT(arr, n, value)` - Initialize arr of size n with `value`.
