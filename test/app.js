@@ -6,7 +6,7 @@ var helpers = require('yeoman-test');
 beforeEach(function () {
   return helpers.run(path.join(__dirname, '../generators/app'))
     .withPrompts({ projectName: "test" });
-})
+});
 
 describe('generator-codechef:app', function () {
     it('creates files', function () {
