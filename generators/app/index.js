@@ -37,12 +37,6 @@ module.exports = Generator.extend({
       this.templatePath('test.txt'),
       this.destinationPath(this.props.projectName + '/test.txt')
     );
-    this.fs.copy(
-      this.templatePath('output.txt'),
-      this.destinationPath(this.props.projectName + '/output.txt')
-    );
-
-
   },
 
   install: function() {}
