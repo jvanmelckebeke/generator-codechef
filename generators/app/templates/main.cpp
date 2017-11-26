@@ -37,11 +37,12 @@ template<class T> void chmin(T & a, const T & b) { a = min(a, b); }
 
 int main()
 {
-	int t;
-	cin >> t;
-	while(t--) {
-		cout << t << endl;
-	}
-    return 0;
+  int t;
+  cin >> t;
+  while(t--) {
+    cout << t << endl;
+  }
+  return 0;
 }
 
+ 
